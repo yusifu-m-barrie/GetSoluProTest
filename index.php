@@ -15,47 +15,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <meta charset="UTF-8">
     <title>Welcome</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src="jquery-1.8.3.min.js"></script>
-    <style>
-        body{ 
-    font: 14px sans-serif;
-     text-align: center; 
-    }
-        .center {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 30%;
-    }
-
-    .topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-    </style>
-
 </head>
 <body>
 <div class="topnav">

@@ -94,16 +94,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body{ 
-            font: 14px sans-serif; 
-        }
-        .wrapper{ 
-            width: 360px; padding: 20px; 
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="reset-password.php">Reset Your Password</a>
+  <a href="logout.php">Sign Out of Your Account</a>
+</div>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
