@@ -15,12 +15,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <meta charset="UTF-8">
     <title>Welcome</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="jquery-1.8.3.min.js"></script>
     <style>
         body{ 
     font: 14px sans-serif;
      text-align: center; 
     }
-.center {
+        .center {
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -28,8 +29,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     }
     </style>
     
-    <script src="jquery-1.8.3.min.js"></script>
-
 </head>
 <body>
 
