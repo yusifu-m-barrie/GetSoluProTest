@@ -106,8 +106,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <body>
 <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="reset-password.php">Reset Your Password</a>
-  <a href="logout.php">Sign Out of Your Account</a>
 </div>
     <div class="wrapper">
         <h2>Sign Up</h2>
